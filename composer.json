@@ -1,5 +1,5 @@
 {
-    "name": "ezcommunity/ez-price-bundle",
+    "name": "datafactory/ez-price-bundle",
     "description": "Products price FieldType for eZ Publish Platform",
     "license": "GPL-2.0",
     "keywords": ["ezpublish", "ezprice"],
@@ -16,6 +16,9 @@
     },
     "require-dev": {
         "phpunit/phpunit": "~4.1"
+    },
+    "replace": {
+        "ezcommunity/ez-price-bundle": "*"
     },
     "autoload": {
         "psr-4": {"EzSystems\\EzPriceBundle\\": ""}
