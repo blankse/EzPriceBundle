@@ -2,7 +2,7 @@
 
 {% block ezprice_field %}
 {% spaceless %}
-    {% if not ez_is_field_empty( content, field ) %}
+    {% if not df_is_field_empty(field) %}
         {% set price = ezprice_value( versionInfo, field ) %}
         {% if price %}
             Price including VAT: {{ price.priceIncludingVat }}<br/>
